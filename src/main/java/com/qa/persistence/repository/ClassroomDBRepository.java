@@ -27,7 +27,7 @@ public class ClassroomDBRepository implements ClassroomRepository {
 
 	public String getAllClassrooms() {
 		// TODO Auto-generated method stub
-		Query query = manager.createQuery("Select a FROM Account a");
+		Query query = manager.createQuery("Select a FROM Classroom a");
 		Collection<Classroom> classrooms = (Collection<Classroom>) query.getResultList();
 		return util.getJSONForObject(classrooms);
 	}

@@ -1,0 +1,9 @@
+com\qa\persistence\repository\ClassroomRepository.class
+com\qa\domain\Trainee.class
+com\qa\REST\JAXActivator.class
+com\qa\domain\Classroom.class
+com\qa\util\JSONUtil.class
+com\qa\service\ClassroomService.class
+com\qa\persistence\repository\ClassroomDBRepository.class
+com\qa\service\ClassroomServiceImp.class
+com\qa\REST\ClassroomEndpoint.class
