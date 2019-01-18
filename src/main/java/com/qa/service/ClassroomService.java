@@ -1,10 +1,10 @@
-package com.qa.persistence.repository;
+package com.qa.service;
 
-public interface ClassroomRepository {
-	
+public interface ClassroomService {
+
 	String getAllClassrooms();
 
-	String addTrainee(String trainee);
+	String addTrainee(String accout);
 
 	String updateClassroom(Long id, String traineeToUpdate);
 
